@@ -13,7 +13,7 @@ nav{
     justify-content: space-between;
     /* margin-top: 30px 100px; */
     margin: 0px 100px 36px 100px;  
-    border: 4px solid red;
+    /* border: 4px solid red; */
     width: 1650px;
     height: 100px;
     
@@ -90,7 +90,7 @@ nav{
 .wwd-container{
     width: 1170px;
     height: 1450px;
-    border: 4px solid red ;
+    /* border: 4px solid red ; */
     margin-top: 50px;
     margin-right: 270px;
     margin-left: 270px;
@@ -99,7 +99,7 @@ nav{
 .wwd-sub-container-content{
     width:950px;
     height: 1380px;
-    border: 4px solid red;
+    /* border: 4px solid red; */
     margin-left: 110px;
     
 }
@@ -193,26 +193,26 @@ nav{
     height: 775px;
     margin-right: 440px;
     margin-left: 520px;
-    border: 4px solid black; 
+    /* border: 4px solid black;  */
 }
 .mi-container-title{ 
     width:850px;
     height: 113px;
     margin-right: 50px;
     margin-left: 50px;
-    border: 4px solid black; 
+    /* border: 4px solid black;  */
     text-align: center;
 }
 .mi-container-title-header{
     width:850px;
     height: 37px;
-    border: 4px solid red; 
+    /* border: 4px solid red;  */
     margin-top: 0px;
     margin-bottom: 25px;
 }
 .mi-container-description{
     width:850px;
-    border: 4px solid red; 
+    /* border: 4px solid red;  */
     height: 100px;
     margin-right: 50px;
     margin-left: 50px;
@@ -225,6 +225,141 @@ nav{
     margin-left: 40px;
     border-radius: 16px;
     padding: 15px 10px 15px 10px;
-    border: 4px solid red; 
+    /* border: 4px solid red;  */
 
+}
+/* target container section */
+.target-container{
+    /* border: 4px solid red;  */
+    width:950px;
+    height: 750px;
+    margin-right: 440px;
+    margin-left: 520px;
+    margin-top: 150px;
+    
+}
+.my-curr-target-container{
+    width:850px;
+    /* border: 4px solid black;  */
+    height: 200px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.my-curr-target-container-title{
+    width:850px;
+    height: 37px;
+    /* border: 4px solid red;  */
+    margin-top: 0px;
+    margin-bottom: 25px;
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+}
+.my-curr-target-container-description{
+    width:850px;
+    /* border: 4px solid red;  */
+    height: 130px;
+    margin-right: 50px;
+    /* margin-left: 50px; */
+    margin-top: 20px;
+    text-align: justify;
+}
+.my-curr-target-container-main{
+    width:950px;
+    /* border: 4px solid black;  */
+    height: 350px;
+    margin-top: 40px;
+    display: flex;
+    padding-top: 10px;
+    /* margin-right: 50px;
+    margin-left: 50px;  */
+}
+.my-curr-target-container-sub-column-css{
+    margin-top: 10px;
+    width: 300px;
+    height: 350px;
+    padding-left: 15px;
+    background-color: rgb(208, 203, 224);
+
+    /* border: 4px solid black;  */
+}
+.my-curr-target-container-sub-column-html{
+    margin-top: 10px;
+    width: 300px;
+    height: 350px;
+    padding-left: 15px;
+    background-color: rgb(241, 234, 234);
+    /* border: 4px solid black;  */
+}
+.my-curr-target-container-sub-column-js{
+    margin-top: 10px;
+    width: 300px;
+    height: 350px;
+    padding-left: 15px;
+    background-color: rgb(218, 218, 198);
+
+    /* border: 4px solid black;  */
+}
+/* support section styles */
+.support-section{
+    background-image: url('../assets/handshake.jpg');
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 400px; /* Sets the height of the element */
+    width: 950px;
+    margin-right: 440px;
+    margin-left: 520px;
+    margin-top: 50px;
+    border-radius: 16px;
+
+}
+.support-section-container{
+    /* border: 4px solid red;  */
+    margin: 30px  45px;
+    width: 850px;
+    height: 200px;
+
+}
+.support-section-container-header{
+    width: 750px;
+    height: 180px;
+    margin-left: 50px;
+    /* margin: 0px 150px; */
+    /* border: 4px solid red; */
+}
+.support-section-container-title{
+    width: 300px;
+    height: 45px;
+    margin: 0px 220px;
+    /* border: 4px solid black; */
+    text-align: center;
+    font-weight: bold;
+    font-size: 32;
+    color: #FFFFFF;
+    
+
+}
+.support-section-container-description{
+    width: 650px;
+    height: 120px;
+    margin: 5px 60px;
+    color: #FFFFFF;
+    /* border: 4px solid black; */
+}
+.submit-container{
+    width: 650px;
+    height: 60px;
+    margin-right: 240px;
+    margin-left: 220px;
+   
+}
+.footer-title{
+    /* border: 4px solid red;  */
+    width:950px;
+    height: 36px;
+    margin-right: 440px;
+    margin-left: 520px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;  
 }
