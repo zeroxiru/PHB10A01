@@ -12,7 +12,10 @@ nav{
     align-items: center;
     justify-content: space-between;
     /* margin-top: 30px 100px; */
-    margin: 131px 100px 36px 100px;  
+    margin: 0px 100px 36px 100px;  
+    border: 4px solid red;
+    width: 1650px;
+    height: 100px;
     
 }
 
@@ -47,7 +50,7 @@ nav{
     margin-top: 200px;
 
 }
-.banner-description{
+.shared-description-font{
     font-weight: normal;
     font-size: 16px;
 }
@@ -58,6 +61,7 @@ nav{
     top: 160px; /* 26px from the top of the banner */
     left: 50%;
     transform: translateX(-50%); 
+    margin-top: 30px;
 }
 .btn-banner-contact{
     width: 244px;
@@ -82,14 +86,11 @@ nav{
     font-weight: bolder;
     color: #0D1321;
 }
-.wwd-container-content-description{
-    font-size: 16px;
-    font-weight: normal;
-}
+
 .wwd-container{
     width: 1170px;
     height: 1450px;
-    /* border: 4px solid red ; */
+    border: 4px solid red ;
     margin-top: 50px;
     margin-right: 270px;
     margin-left: 270px;
@@ -98,7 +99,7 @@ nav{
 .wwd-sub-container-content{
     width:950px;
     height: 1380px;
-    /* border: 4px solid red; */
+    border: 4px solid red;
     margin-left: 110px;
     
 }
@@ -186,4 +187,44 @@ nav{
 .wwd-shared-btn-learn{
     width: 171px;
     height: 47px;
+}
+.mi-container{
+    width:950px;
+    height: 775px;
+    margin-right: 440px;
+    margin-left: 520px;
+    border: 4px solid black; 
+}
+.mi-container-title{ 
+    width:850px;
+    height: 113px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: 4px solid black; 
+    text-align: center;
+}
+.mi-container-title-header{
+    width:850px;
+    height: 37px;
+    border: 4px solid red; 
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+.mi-container-description{
+    width:850px;
+    border: 4px solid red; 
+    height: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.video-container{
+    width:850px;
+    height:500px;
+    margin-right: 20px;
+    margin-left: 40px;
+    border-radius: 16px;
+    padding: 15px 10px 15px 10px;
+    border: 4px solid red; 
+
 }
